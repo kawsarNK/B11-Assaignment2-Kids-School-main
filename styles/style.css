@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+}
+
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+}
+
+/*  Navbar portion  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-btn {
+    padding: 8px 16px;
+}
+
+.menu-bar {
+    display: none;
+    font-size: 24px;
+}
